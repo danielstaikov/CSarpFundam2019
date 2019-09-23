@@ -1,6 +1,6 @@
 ## Exercise: Intro and Basic Syntax
 ### 1.	Ages
-  Write a program that determines whether based on the given age a person is: baby, child, teenager, adult, elder. The bounders are:/n
+  Write a program that determines whether based on the given age a person is: baby, child, teenager, adult, elder. The bounders are: /r
     - 0-2 – baby; 
     - 3-13 – child; 
     - 14-19 – teenager;
