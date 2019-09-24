@@ -1,15 +1,15 @@
 ## Exercise: Intro and Basic Syntax
 ### 1.	Ages
-  Write a program that determines whether based on the given age a person is: baby, child, teenager, adult, elder.  
-  The bounders are:  
-  <ul>  
-    - <li>0-2 – baby; 
-    - <li>3-13 – child;</li> 
-    - <li>14-19 – teenager;</li>
-    - <li>20-65 – adult;</li>
-    - <li>>=66 – elder;</li>
+Write a program that determines whether based on the given age a person is: baby, child, teenager, adult, elder.  
+The bounders are:  
+<ul>  
+<li>0-2 – baby;</li>
+<li>3-13 – child;</li>
+<li>14-19 – teenager;</li>
+<li>20-65 – adult;</li>
+<li>>=66 – elder;</li>
 </ul>
-  All the values are inclusive.
+All the values are inclusive.  
           Examples
           Input	  Output
           20	    adult
