@@ -55,7 +55,11 @@ You should reduce the prices in that EXACT order
 
 |Input|Output|
 |---|---|
-|30|  |
+|30
+
+Students
+
+Sunday|  |
 |Students|  |
 |Sunday|Total price: 266.73|
 |40|   |
