@@ -9,7 +9,9 @@ The bounders are:
 <li>20-65 – adult;</li>
 <li>>=66 – elder;</li>
 </ul>
-All the values are inclusive.  
+All the values are inclusive.
+
+
           Examples
           Input	  Output
           20	    adult
