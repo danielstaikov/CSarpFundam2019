@@ -24,12 +24,15 @@ All the values are inclusive.
 
 ### 2.	Divison
   You will be given an integer and you have to print on the console whether that number is divisible by the following numbers: 2, 3, 6, 7, 10. You should always take the bigger division. If the number is divisible by both 2 and 3 it is also divisible by 6 and you should print only the division by 6. If a number is divisible by 2 it is sometimes also divisible by 10 and you should print the division by 10. If the number is not divisible by any of the given numbers print “Not divisible”. Otherwise print “The number is divisible by {number}”.
-          Examples
-          Input	  Output
-          30	    The number is divisible by 10
-          15	    The number is divisible by 3
-          12	    The number is divisible by 6
-          1643	  Not divisible
+  
+**Examples**
+
+ |Input|Output|
+ |---|---|
+ |30|The number is divisible by 10|
+ |15|The number is divisible by 3|
+ |12|The number is divisible by 6|
+ |1643|Not divisible|
          
 ### 3.	Vacation
 You are given a group of people, type of the group, on which day of the week they are going to stay. Based on that information calculate how much they have to pay and print that price on the console. Use the table below. In each cell is the price for a single person. The output should look like that: “Total price: {price}”. The price should be formatted to the second decimal point.
@@ -38,18 +41,27 @@ Students	8.45	9.80	10.46
 Business	10.90	15.60	16
 Regular	15	20	22.50
 There are also discounts based on some conditions:
-•	Students – if the group is bigger than or equal to 30 people you should reduce the total price by 15%
-•	Business – if the group is bigger than or equal to  100 people 10 of them can stay for free.
-•	Regular – if the group is bigger than or equal to 10 and less than or equal to 20 reduce the total price by 5%
+<ul>
+<li>Students – if the group is bigger than or equal to 30 people you should reduce the total price by 15%</li>
+<li>Business – if the group is bigger than or equal to  100 people 10 of them can stay for free.</li>
+<li>Regular – if the group is bigger than or equal to 10 and less than or equal to 20 reduce the total price by 5%</li>
+</ul>
+
 You should reduce the prices in that EXACT order
-Examples
-Input	Output
-30
-Students
-Sunday	Total price: 266.73
-40
-Regular
-Saturday	Total price: 800.00
+
+
+**Examples**
+
+
+|Input|Output|
+|---|---|
+|30|  |
+|Students|  |
+|Sunday|Total price: 266.73|
+|40|   |
+|Regular|   |
+|Saturday|Total price: 800.00|
+
 
 ### 4.	Print and Sum
 Write a program to display numbers from given start to given end and their sum. All the numbers will be integers. On the first line you will receive the start, on the second the end.
