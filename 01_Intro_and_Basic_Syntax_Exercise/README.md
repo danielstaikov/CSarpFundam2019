@@ -12,10 +12,9 @@ The bounders are:
 All the values are inclusive.
 
 
-|Examples|
-|---|
+####Examples
 |Input |Output|
-|---|
+|---|---|
 |20|adult|
 |1|baby|
 |100|elder|
