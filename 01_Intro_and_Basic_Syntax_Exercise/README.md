@@ -218,4 +218,7 @@ Total: 6 + 6 + 4 = 16.00 lv;
 40
 200	Rage expenses: 608.00 lv.	
 
-
+<blockquote>
+<p>foo
+- bar</p>
+</blockquote>
