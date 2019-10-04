@@ -38,7 +38,7 @@ All the values are inclusive.
 You are given a group of people, type of the group, on which day of the week they are going to stay. Based on that information calculate how much they have to pay and print that price on the console. Use the table below. In each cell is the price for a single person. The output should look like that: “Total price: {price}”. The price should be formatted to the second decimal point.
 
 
-|---|Friday|Saturday|Sunday|
+| |Friday|Saturday|Sunday|
 |---|---|---|---|
 |Students|8.45|9.80|10.46|
 |Business|10.90|15.60|16|
@@ -60,15 +60,12 @@ You should reduce the prices in that EXACT order
 
 |Input|Output|
 |---|---|
-|30
-
-Students
-
-Sunday|  |
-|Students|  |
+|30| |
+|Students| |
+|Sunday| |
 |Sunday|Total price: 266.73|
-|40|   |
-|Regular|   |
+|40| |
+|Regular| |
 |Saturday|Total price: 800.00|
 
 
