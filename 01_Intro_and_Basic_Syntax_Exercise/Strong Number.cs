@@ -41,4 +41,4 @@ namespace _06_Strong_Number
             Console.WriteLine(sum);
         }
     }
-}
+}//doesn't work properly
