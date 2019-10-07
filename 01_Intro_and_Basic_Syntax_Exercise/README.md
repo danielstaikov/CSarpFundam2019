@@ -77,8 +77,10 @@ Write a program to display numbers from given start to given end and their sum. 
 |---|---|
 |5|5 6 7 8 9 10|
 |10|Sum: 45|
+|---|---|
 |0|0 1 2 … 26|
 |26|Sum: 351|
+|---|---|
 |50|50 51 52 53 54 55 56 57 58 59 60|
 |60|Sum: 605|	
 
@@ -97,6 +99,7 @@ You will be given a string representing a username. The password will be that us
 |---|---|
 |momo|   |
 |omom|User momo logged in.|
+|---|---|
 |sunny|
 |rainy|Incorrect password. Try again.|
 |cloudy|Incorrect password. Try again.|
@@ -107,28 +110,34 @@ You will be given a string representing a username. The password will be that us
 
 ### 6.	Strong Number
 Write a program to check if a given number is a strong number or not. A number is strong if the sum of the Factorial of each digit is equal to the number. For example 145 is a strong number, because 1! + 4! + 5! = 145. Print "yes" if the number is strong and “no” if the number is not strong.
-Examples
-Input	Output
-2	yes
-3451	no
-40585	yes
+
+**Examples**
+
+|Input|Output|
+|---|---|
+|2|yes|
+|3451|no|
+|40585|yes|
+
 ### 7.	Vending Machine
 You task is to calculate the total price of a purchase from a vending machine. Until you receive “Start” you will be given different coins that are being inserted in the machine. You have to sum them in order to have the total money inserted. There is a problem though. Your vending machine only works with 0.1, 0.2, 0.5, 1, and 2 coins. If someone tries to insert some other coins you have to display “Cannot accept {money}” and not add it to the total money. On the next few lines until you receive “End” you will be given products to purchase. Your machine has however only “Nuts”, “Water”, “Crisps”, “Soda”, “Coke”. The prices are: 2.0, 0.7, 1.5, 0.8, 1.0 respectively. If the person tries to purchase a not existing product print “Invalid product”. Be careful that the person may try to purchase a product they don’t have the money for. In that case print “Sorry, not enough money”. If the person purchases a product successfully print “Purchased {product name}”. After the “End” command print the money that are left formatted to the second decimal point in the format “Change: {money left}”.
-Examples
-Input	Output
-1
-1
-0.5
-0.6
-Start
-Coke
-Soda
-Crisps
-End	Cannot accept 0.6
-Purchased coke
-Purchased soda
-Sorry, not enough money
-Change: 0.70
+
+**Examples**
+
+|Input|Output|
+|---|---|
+|1|   |
+|1|   |
+|0.5|   |
+|0.6|Cannot accept 0.6|
+|Start| 
+|Coke|Purchased coke|
+|Soda|Purchased soda|
+|Crisps|Sorry, not enough money|
+|End|Change: 0.70|
+
+
+
 ### 8.	Triangle of Numbers
 Write a program, which receives a number – n, and prints a triangle from 1 to n as in the examples.
 Constraints
