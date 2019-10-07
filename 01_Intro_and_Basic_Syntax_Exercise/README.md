@@ -70,41 +70,41 @@ You should reduce the prices in that EXACT order
 
 ### 4.	Print and Sum
 Write a program to display numbers from given start to given end and their sum. All the numbers will be integers. On the first line you will receive the start, on the second the end.
-Examples
-Input	Output
-5
-10	5 6 7 8 9 10
-Sum: 45
-0
-26	0 1 2 … 26
-Sum: 351
-50
-60	50 51 52 53 54 55 56 57 58 59 60
-Sum: 605
+
+**Examples**
+
+|Input|Output|
+|---|---|
+|5|5 6 7 8 9 10|
+|10|Sum: 45|
+|0|0 1 2 … 26|
+|26|Sum: 351|
+|50|50 51 52 53 54 55 56 57 58 59 60|
+|60|Sum: 605|	
+
 ### 5.	Login
 You will be given a string representing a username. The password will be that username reversed. Until you receive the correct password print on the console “Incorrect password. Try again.”. When you receive the correct password print “User {username} logged in.” However on the fourth try if the password is still not correct print “User {username} blocked!” and end the program.
-Examples
-Input	Output
-Acer
-login
-go
-let me in
-recA
-	Incorrect password. Try again.
-Incorrect password. Try again.
-Incorrect password. Try again.
-User Acer logged in.
 
-momo
-omom	User momo logged in.
-sunny
-rainy
-cloudy
-sunny
-not sunny	Incorrect password. Try again.
-Incorrect password. Try again.
-Incorrect password. Try again.
-User sunny blocked!
+**Examples**
+
+|Input|Output|
+|---|---|
+|Acer|   |
+|login|Incorrect password. Try again.|
+|go|Incorrect password. Try again.|
+|let me in|Incorrect password. Try again.|
+|recA|User Acer logged in.|
+|---|---|
+|momo|   |
+|omom|User momo logged in.|
+|sunny|
+|rainy|Incorrect password. Try again.|
+|cloudy|Incorrect password. Try again.|
+|sunny|Incorrect password. Try again.|
+|not sunny|User sunny blocked!|
+
+
+
 ### 6.	Strong Number
 Write a program to check if a given number is a strong number or not. A number is strong if the sum of the Factorial of each digit is equal to the number. For example 145 is a strong number, because 1! + 4! + 5! = 145. Print "yes" if the number is strong and “no” if the number is not strong.
 Examples
